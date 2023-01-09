@@ -26,7 +26,7 @@ public class StudentResults {
 			while (resultset.next()) {
 				if (enterid == resultset.getInt(2)) {
 					System.out.println(
-							"YOUR DATA IS>>>" + " {NAME=" + resultset.getString(3) + ",SCORE=" + resultset.getInt(4)+"}");
+							"YOUR DATA IS HERE>>>" + " {NAME=" + resultset.getString(3) + ",SCORE=" + resultset.getInt(4)+"}");
 				}
 			}
 		} catch (Exception e) {
