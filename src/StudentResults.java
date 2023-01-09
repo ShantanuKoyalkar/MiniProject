@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
-//AUTHOR:VAIBHAV SHALIGRAM TADE
+//AUTHOR:SHANTANU DHANANJAY KOYALKAR
 public class StudentResults {
 //METHOD TO RETRIEVE DATA BY ID
 	public static void retrieveStudentData() throws SQLException {
@@ -36,7 +36,7 @@ public class StudentResults {
 			preparestatement.close();
 		}
 	}
-//AUTHOR:VAIBHAV SHALIGRAM TADE
+//AUTHOR:SHANTANU DHANANJAY KOYALKAR
 	public static void sortStudentData() throws SQLException {
 //METHOD TO EXTRACT ALL THE DATA OF STUDENT ATTENDED THE EXAM IN SORTING ORDER
 		Connection con = null;
